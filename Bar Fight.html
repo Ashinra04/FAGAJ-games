@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jogo</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .black-div {
+      background-color: black;
+      position: cemter;
+      top: 10px;
+      left: 10px;
+      right: 10px;
+      z-index: 999;
+    }
+    
+    .content {
+      padding: 20px;
+      color: white;
+    }
+    
+      @media (min-width: 768px) {
+      .custom-div {
+        width: 800px;
+        margin: 0 auto;
+      }
+    }
+    
+    @media (max-width: 767px) {
+      .custom-div {
+        width: 500px;
+        margin: 0 auto;
+      }
+    }
+    
+    .game-container {
+      text-align: center;
+    }
+    
+    .game-name {
+      background-color: black;
+      color: white;
+      padding: 10px;
+      font-size: 24px;
+    }
+    
+    .game-wrapper {
+      position: relative;
+      padding-bottom: 56.25%; /* Proporção 16:9 para manter a resolução do jogo */
+      height: 0;
+      overflow: hidden;
+    }
+    
+    .game-wrapper iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+    
+    .game-instructions {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+   }
+  </style>
+</head>
+<body>
+  <div class="game-container">
+    <div class="game-name">
+      <h1>Bar fight</h1>
+    </div>
+    
+    <div class="black-div">
+    <div class="content">
+    <div class="game-wrapper">
+      <iframe src="https://scratch.mit.edu/projects/916421836/embed" allowtransparency="true" width="800" height="800" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
+    <div class="game-instructions">
+   
+      <h2>Como Jogar:</h2>
+      <p>use os botoes de seta para controlar a movimentação, o botão de cambalhota para desviar de golpes e se mover com mais agilidade e execute combos clicabdo no botao de ataque, não espame o botão isso não executará o combo.
+      
+      No computador aperte as teclas A e D para movimentação, espaço para desviar de golpes e se mmover com mais agilidade e execute combos apertando a tecla Q.</p>
+    </div>
+  </div>
+</body>
+</html>
