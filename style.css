@@ -4,7 +4,12 @@
       padding-left: 30px;
         padding-right: 30px;
         color: white;
+ }
+.footer-content {
+  padding: 20px;
+  font-size: 18px;
 }
+</style>
 .navbar {
   display: flex;
   justify-content: space-between;
